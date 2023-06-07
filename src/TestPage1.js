@@ -7,7 +7,7 @@ export default function TestPage1() {
    
     const[confirm,setConfirm]=useState(2)
     useEffect(()=>{
-      axios.get('http://123.56.9.154:8081/file/hello')
+      axios.get('/apis/file/hello')
       .then(response => {
         // 处理请求成功的响应信息
         console.log(response.data);

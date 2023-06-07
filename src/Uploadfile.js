@@ -9,7 +9,7 @@ const props = {
   name: 'file',
   multiple: true,
   headers:headers,
-  action: 'http://123.56.9.154:8081/file/upload',//请求地址
+  action: '/apis/file/upload',//请求地址
   onChange(info) {
     const { status } = info.file;
     if (status !== 'uploading') {
