@@ -1,12 +1,18 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# 项目介绍
+项目使用了react18框架，涉及了路由，axios请求和反向代理，文件上传等知识，非常适合react的初学者进行学习
+关于控制台打印输出二遍的问题是因为react的严格模式，文件上传的接口，可以在setupProxy.js中进行配置；
+此项目可以在HBuilder X进行打包成apk应用
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+在npn start之前你需要安装如下依赖：\
+![image](https://github.com/Huhuijun/safetytest/assets/121949401/b693a91c-b980-4656-903b-5206c8d47b0d)
+相信你会正常运行
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
